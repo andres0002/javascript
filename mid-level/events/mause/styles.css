@@ -4,6 +4,12 @@ body {
 }
 
 .container {
-    padding: 30px;
     background-color: #f00;
+    padding: 30px;
+}
+
+.h2 {
+    background-color: #00f;
+    padding: 30px;
+    color: #fff;
 }

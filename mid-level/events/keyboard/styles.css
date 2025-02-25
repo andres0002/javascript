@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: #222;
+    font-family: sans-serif;
+    background-color: #444;
+}
+
+.container {
+    padding: 30px;
+    background-color: #999;
+}
+
+.input-test {
+    border: 1px solid #0f0;
+    border-radius: 5px;
+    padding: 10px 20px;
+    width: 100%;
+    color: #444;
+    outline: none;
+}
