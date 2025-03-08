@@ -1,0 +1,67 @@
+body {
+    font-family: sans-serif;
+    background-color: #444;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    padding: 10px;
+    background-color: #555;
+    box-sizing: border-box;
+}
+
+.circulo {
+    border-radius: 50%;
+    padding: 40px;
+    background-color: #f55;
+    margin: 10px;
+    display: inline-block;
+
+}
+
+.retangulo {
+    padding: 100px 150px;
+    background-color: #ccc;
+    margin: 10px;
+    border: 4px dashed #666;
+}
+
+.texturas {
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 8px;
+    user-select: none;
+    background-color: #666;
+}
+
+.texturas div {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 6px;
+    user-select: all;
+}
+
+.texturas div:active {
+    opacity: 0.5;
+}
+
+.textura1 {
+    background: url("./imgs/textura1.png");
+}
+
+.textura2 {
+    background: url("./imgs/textura2.png");
+}
+
+.textura3 {
+    background: url("./imgs/textura3.png");
+}
+
+.zona {
+    margin: 10px;
+    background-color: #ddd;
+    height: 200px;
+}
