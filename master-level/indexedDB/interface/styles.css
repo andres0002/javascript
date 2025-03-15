@@ -1,0 +1,104 @@
+body {
+    font-family: sans-serif;
+    background-color: #444;
+    text-align: center;
+}
+
+body, h2, div, input, button {
+    padding: 0;
+    margin: 0;
+}
+
+.add-names {
+    display: flex;
+    margin: 20px;
+}
+
+#name {
+    width: 100%;
+    padding: 8px 20px;
+    border-radius: 8px;
+    outline: none;
+    font-size: 16px;
+    color: #444;
+}
+
+#btnAdd {
+    padding: 6px 20px;
+    background-color: #11f;
+    border: none;
+    margin: 4px 0 4px 20px;
+    color: #ddd;
+    font-size: 16px;
+    border-radius: 8px;
+    text-transform: uppercase;
+}
+
+#btnAdd:hover {
+    box-shadow: 0 0 10px #ddd;
+}
+
+.names {
+    margin: 20px;
+}
+
+.name {
+    display: grid;
+    grid-template-columns: minmax(100px, 300px) 1fr;
+    border-top: 3px solid #ddd;
+    padding: 10px;
+    color: #ddd;
+    align-items: center;
+    gap: 10px;
+}
+
+.name h2 {
+    text-align: start;
+    outline-color: transparent;
+}
+
+.options {
+    display: flex;
+    justify-content: end;
+}
+
+.btnUpdateChange {
+    padding: 6px 20px;
+    background-color: #11f;
+    border: none;
+    margin: 4px;
+    color: #ddd;
+    font-size: 16px;
+    border-radius: 8px;
+    text-transform: uppercase;
+}
+
+.btnUpdateChange:hover {
+    box-shadow: 0 0 10px #ddd;
+}
+
+.btnUpdate {
+    padding: 6px 20px;
+    background-color: #ddd;
+    border: none;
+    margin: 4px;
+    color: #444;
+    font-size: 16px;
+    border-radius: 8px;
+    text-transform: uppercase;
+}
+
+.btnDelete {
+    padding: 6px 20px;
+    background-color: #f11;
+    border: none;
+    margin: 4px 0 4px 4px;
+    color: #ddd;
+    font-size: 16px;
+    border-radius: 8px;
+    text-transform: uppercase;
+}
+
+.btnDelete:hover {
+    box-shadow: 0 0 10px #ddd;
+}
