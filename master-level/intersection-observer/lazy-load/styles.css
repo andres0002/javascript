@@ -1,0 +1,79 @@
+body {
+    font-family: sans-serif;
+    background-color: #444;
+    color: #ddd;
+    text-align: center;
+}
+
+body, h3, div, p, div {
+    margin: 0;
+    padding: 0;
+}
+
+.publication {
+    text-align: left;
+    margin: 20px;
+    opacity: 0;
+    animation: aparecer 1s forwards;
+}
+
+.publication h3 {
+    border-bottom: 2px solid #ddd;
+    display: inline-block;
+    padding: 0;
+}
+
+.publication p {
+    padding: 10px 20px;
+    border-left: 2px solid #ddd;
+}
+
+.coments {
+    display: flex;
+    padding: 5px 0;
+}
+
+.coments .coment {
+    flex-grow: 1;
+    padding: 8px 20px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    background-color: #999;
+    color: #333;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.coments .coment::placeholder {
+    color: #666;
+}
+
+.coments .send {
+    min-width: min-content;
+    padding: 8px 20px;
+    background-color: #999;
+    border-radius: 8px;
+    margin-left: 10px;
+    border: none;
+    color: #222;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.coments .send:hover {
+    box-shadow: 0 0 10px #ddd;
+}
+
+.noMore {
+    margin-bottom: 20px;
+}
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

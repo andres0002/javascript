@@ -1,0 +1,46 @@
+body {
+    font-family: sans-serif;
+    background-color: #444;
+    color: #ddd;
+    text-align: center;
+}
+
+.box {
+    width: 400px;
+    height: 100px;
+    margin: auto;
+    background-color: #222;
+    display: flex;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 44px dashed #666;
+}
+
+.box strong {
+    margin: auto;
+    font-size: 30px;
+}
+
+.box1 {
+    background-color: #f42;
+}
+
+.box2 {
+    background-color: #48e;
+}
+
+.box3 {
+    background-color: #4e8;
+}
+
+.box4 {
+    background-color: #e48;
+}
+
+.box5 {
+    background-color: #e84;
+}
+
+.box6 {
+    background-color: #8e4;
+}
