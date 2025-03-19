@@ -1,8 +1,19 @@
 // ___________________Service Workers_______________________
-// - serviceWorker interface -> .
 // - serviceWorker lifeCycle -> https://developers.google.com/web/fundamentals/primers/service-workers/lifecycle.
-// - Registrar un service worker con el method register() -> .
+// - serviceWorker interface -> .
+if (!navigator.serviceWorker) {
+    console.log("Tu navegador no soporta Service Workers...");
+}
+if (navigator.serviceWorker) {
+    // - Registrar un service worker con el method register() -> .
+    navigator.serviceWorker.register("./service-worker.js");
+}
 // - Enviar mensaje con el method postMessage() -> .
-// - Fetch event -> .
-// - Registrar caché y mostrar sitio web offline -> .
-// - Chat Realtime -> .
+navigator.serviceWorker.ready.then((res) => {
+    setTimeout(() => {
+        res.active.postMessage({message: "Mensaje desde el JS..."});
+    }, 2000);
+});
+navigator.serviceWorker.addEventListener("message", (e) => {
+    console.log(e.data.message);
+});
