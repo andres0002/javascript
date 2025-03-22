@@ -3,3 +3,40 @@ body {
     background-color: #444;
     color: #ddd;
 }
+
+body, div, h2 {
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.editor {
+    margin: 30px;
+    background-color: #333;
+    width: fit-content;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#canvas {
+    border: 1px solid #ddd;
+}
+
+.inputs {
+    padding: 5px 5px 8px 5px;
+    border: 1px solid #ddd;
+}
+
+.color {
+    margin-top: 0;
+    width: 10%;
+    padding: 0;
+}
+
+.range {
+    width: 86.12%;
+}
